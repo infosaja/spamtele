@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirim Pesan ke Telegram</title>
+</head>
+<body>
+    <h1>Kirim Pesan ke Telegram</h1>
+    <form id="telegramForm">
+        <label for="telegramId">ID Obrolan Telegram:</label>
+        <input type="text" id="telegramId" name="telegramId"><br><br>
+        
+        <label for="botToken">Token Bot:</label>
+        <input type="text" id="botToken" name="botToken"><br><br>
+        
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        
+        <button type="button" onclick="sendMessage()">Kirim Pesan</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+  
